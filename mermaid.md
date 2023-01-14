@@ -14,7 +14,7 @@ graph TD
 # Definition SecurityGroups (graph)
 
 ```mermaid
-graph TB;
+graph LR;
   classDef sgi fill:#0000cc,stroke:#0000cc,stroke-width:4px,text-align:left
   classDef sge fill:#009000,stroke:#009000,stroke-width:4px,text-align:left
 
