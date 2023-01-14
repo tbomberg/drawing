@@ -1,0 +1,16 @@
+<mxfile host="65bd71144e">
+    <diagram id="kWsgV52R-jD18fwuDaUn" name="Page-1">
+        <mxGraphModel dx="1008" dy="854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="%%{init: {'themeCSS': '.er.entityBox { fill: #009000; } .er.attributeBoxOdd { fill: #009000;} .er.attributeBoxEven { fill: #009000;} ' }}%%&#10;&#10;erDiagram&#10;&#10;  SGe-Internet  {&#10;    IP all&#10;    tag tag&#10;  }&#10;&#10;  SGe-VPN {&#10;    IP abc&#10;   }&#10;&#10;SGe-ABC {&#10;    IP b&#10;}" style="shadow=0;dashed=0;align=left;strokeWidth=1;shape=mxgraph.mermaid.abstract.mermaid;labelBackgroundColor=#ffffff;noLabel=1;theme=default;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="240" width="400" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="graph TD&#10;  classDef sgi fill:#0000cc,stroke:#0000cc,stroke-width:4px;&#10;  classDef sge fill:#009000,stroke:#009000,stroke-width:4px;&#10;&#10;&#10;  SGe-Internet:::sge -- SSH,DNS,tcp-443 --&gt; SGi-bastion:::sgi" style="shadow=0;dashed=0;align=left;strokeWidth=1;shape=mxgraph.mermaid.abstract.mermaid;labelBackgroundColor=#ffffff;noLabel=1;theme=default;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="50" width="150" height="240" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
