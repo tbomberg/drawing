@@ -15,16 +15,16 @@ graph TD
 
 ```mermaid
 graph TB;
-  classDef sgi fill:#0000cc,stroke:#0000cc,stroke-width:4px;
-  classDef sge fill:#009000,stroke:#009000,stroke-width:4px;
+  classDef sgi fill:#0000cc,stroke:#0000cc,stroke-width:4px,text-align:left
+  classDef sge fill:#009000,stroke:#009000,stroke-width:4px,text-align:left
 
-  subgraph one
-    SGe-Internet(SGe-Interne<hr><table><tr><td>ip</td><td>all</td></tr><tr><td>tag</td><td>sectagname</td></tr></table>):::sge
+  subgraph " "
+    SGe-Internet(SGe-Internet<hr>IP: all<br>tag: security tag):::sge
   end
 
-  subgraph two
-    SGe-secgroup01(SGe-secgroup01<hr><table><tr><td>ip</td><td>all</td></tr><tr><td>tag</td><td>sectagname</td></tr></table>):::sge
-    SGe-secgroup02(SGe-secgroup02<hr><table><tr><td>ip</td><td>all</td></tr><tr><td>tag</td><td>sectagname</td></tr></table>):::sge
+  subgraph " " 
+    SGi-secgroup01(SGe-secgroup01<hr>IP: 1.2.3.4):::sgi
+    SGi-secgroup02(SGe-secgroup02<hr>VM: exunxsrv01234):::sgi
   end
 
 ```
